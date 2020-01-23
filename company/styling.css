@@ -1,0 +1,267 @@
+body{
+    font-family: sans-serif;
+    background: url(https://freenaturestock.s3.amazonaws.com/1487.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
+
+
+.logo{
+    height: 30px;
+   
+}
+
+.navbar-inverse{
+    background: rgba(0,0,0,0.5);
+}
+/*#c3deaf*/
+.nav li{
+    color: white;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+
+.nav {
+    opacity: 0.7;
+}
+/*rgba( 133, 218, 211, 0.633 )*/
+.nav li:hover{
+    border-bottom: 1px solid #24a5c6;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.jumbotron{
+    background-color: transparent;
+    color: azure;
+    text-align: center;
+    margin-top: 80px;
+    padding: 0;
+    letter-spacing: 2.5px;
+/*    margin-left: 30px;*/
+}
+
+.container{
+    max-width: 1000px;
+}
+
+.bodyimage{
+    height: 100px;
+}
+
+.col-md-4{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.icons p{
+    font-size: 13px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.btn{
+    background-color: rgba(0, 255, 184, 0.5);
+/*    border: 1px solid #1faad0;*/
+    border-radius: 10px;
+    color: white;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+/*    border-color: firebrick;*/
+}
+
+.btn:hover{
+     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+@media(max-height: 768px){
+    .bodyimage{
+        height: 70px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .body{
+         background: url(https://freenaturestock.s3.amazonaws.com/1487.jpg) no-repeat center center;
+    background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 500px){
+.details1 h1{
+    color: cyan;
+    text-align: center;
+    padding-top: 100px;
+    margin: 30px;
+}
+}
+
+@media only screen and (max-width: 500px){
+.details2 h3{
+    color: cyan;
+    text-align: center;
+/*    padding-top: 20px;*/
+    margin: 30px;
+    
+}
+}
+
+
+/*
+@media(min-width: 480px) {
+    float: left;
+    padding: 0;
+    margin: 2%;
+    width: 94%;
+       
+}
+*/
+
+
+.details1{
+    color: cyan;
+    text-align: center;
+    padding-top: 100px;
+    margin: 30px;
+}
+
+.details2{
+    color: cyan;
+    text-align: center;
+    padding-top: 100px;
+    margin: 30px;
+}
+
+
+.details3{
+    color: cyan;
+    text-align: center;
+    padding-top: 100px;
+    margin: 30px;
+}
+
+
+
+.log{
+    height: 30px;
+}
+
+#insta{
+    color: cadetblue;
+/*    margin-right: 20px;*/
+}
+
+.video{
+/*    margin-left: 350px;*/
+    opacity: 0.5;
+}
+
+.con{
+    background: transparent;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.btn-primary-default{
+    margin: 10px;
+    text-align: center;
+}
+
+input{
+     background: transparent;
+        width: 260px;
+        border-radius: 3px;
+    border-style: solid;
+
+
+}
+
+input[type=text]:focus {
+/*    border: 3px dashed white;*/
+  background-color: grey;
+  color: white;
+}
+
+input[type=email]:focus {
+/*    border: 3px dashed white;*/
+    background-color: grey;
+  color: white;
+}
+
+textarea{
+    border-radius: 3px;
+     background: transparent;
+    text-align: center;
+    border: 2px solid;
+    
+    
+
+/*    margin-left: 110px;*/
+}
+
+label{
+    color: cyan;
+    margin: 10px;
+}
+
+textarea:focus {
+        border: 3px white;
+    background-color: grey;
+  color: white;
+}
+
+.details1 img{
+    height: 360px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.pic{
+    height: 30px;
+    width: 30px;
+/*    padding-bottom: 13px;*/
+    opacity: 0.7;
+    transition: transform(70px);
+    transition: height 2s,width 2s;
+/*        margin-bottom: 20px;*/
+}
+
+.pic:hover{
+    height: 50px;
+    width: 50px;
+        transform: skewX(-20deg);
+
+}
+
+/*
+.details2 span{
+    color: cadetblue;
+}*/
